@@ -44,6 +44,9 @@ while count < blinkCount:
     print("LED OFF")
     sleep(1)
     count +=1
+    
+    
+count = 0
 
 while count < blinkCount:
     GPIO.output(LEDPin4, True)
