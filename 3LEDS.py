@@ -14,7 +14,9 @@ LEDPin2 = 23
 LEDPin3 = 24
 
 #setup
-GPIO.setup(LEDPin, GPIO.OUT)
+GPIO.setup(LEDPin1, GPIO.OUT)
+GPIO.setup(LEDPin2, GPIO.OUT)
+GPIO.setup(LEDPin3, GPIO.OUT)
 
 
 while count < blinkCount:
