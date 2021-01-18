@@ -52,5 +52,5 @@ while True:
         else:
             GPIO.output(listLEDS[x], False)
 
-    sleep(1)
+    sleep(.3)
     num += 1
